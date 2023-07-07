@@ -1,0 +1,491 @@
+.PlacesListPageLoaded__title {
+  color: #212529;
+  font-size: 1.5rem;
+  letter-spacing: -0.03em;
+  line-height: 1.2;
+}
+.PlacesListPageLoaded__webPlacesListTitle {
+  color: #212529;
+  font-size: 2.25rem;
+  letter-spacing: -0.03em;
+  line-height: 1.2;
+}
+.PlacesListPageLoaded__badge {
+  font-size: 0.75rem;
+  height: 1.5rem;
+  vertical-align: text-bottom;
+  width: 1.5rem;
+}
+.HeaderPromoWithButtons__container {
+  border-radius: 16px;
+}
+.HeaderPromoWithButtons__closeButton {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+}
+.HeaderPromoWithButtons__header {
+  font-size: 1.125rem;
+}
+.ComponentBreakpoints__lg_up .HeaderPromoWithButtons__header {
+  font-size: 2.25rem;
+}
+.HeaderPromoWithButtons__body {
+  color: #6c757d;
+  font-size: 1rem;
+}
+.ComponentBreakpoints__lg_up .HeaderPromoWithButtons__body {
+  font-size: 24px;
+}
+.HeaderPromoWithButtons__image {
+  width: 112px;
+}
+.ComponentBreakpoints__sm_up .HeaderPromoWithButtons__image {
+  width: 160px;
+}
+.ComponentBreakpoints__lg_up .HeaderPromoWithButtons__image {
+  width: 200px;
+}
+.HeaderPromoWithButtons__background {
+  width: 268px;
+}
+.ComponentBreakpoints__lg_up .HeaderPromoWithButtons__background {
+  width: 416px;
+}
+.HeaderPromoWithButtons__redLightest {
+  background-color: #f9d8dd;
+}
+.HeaderPromoWithButtons__yellowLightest {
+  background-color: #fdf5eb;
+}
+.HeaderPromoWithButtons__tealLightest {
+  background-color: #daf5f5;
+}
+.HeaderPromoWithButtons__greenLightest {
+  background-color: #e8f8f2;
+}
+.HeaderPromoWithButtons__purpleLightest {
+  background-color: #e2daef;
+}
+.HeaderPromoWithButtons__indigoLightest,
+.HeaderPromoWithButtons__indigoLightestDarkAccent {
+  background-color: #ebedfc;
+}
+.PlanViewPageContainerUnpad {
+  margin-left: -16px;
+  margin-right: -16px;
+}
+@media (min-width: 992px) {
+  .PlanViewPageContainerUnpad {
+    margin-left: -32px;
+    margin-right: -32px;
+  }
+}
+.PlacesListPagePromo__unpad {
+  margin-left: -16px;
+  margin-right: -16px;
+}
+@media (min-width: 576px) {
+  .PlacesListPagePromo__unpad {
+    margin-left: -40px;
+    margin-right: -40px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+@media (min-width: 992px) {
+  .PlacesListPagePromo__unpad {
+    margin-left: -80px;
+    margin-right: -80px;
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+}
+.LandingPageHeading__color {
+  color: #2c365d !important;
+}
+@media (min-width: 992px) {
+  .LandingPageHeading__lead {
+    color: #212529;
+    font-size: 2.25rem;
+    letter-spacing: -0.03em;
+    line-height: 1.2;
+  }
+}
+.LandingPageProductAnimation__background {
+  border-radius: 4%/6%;
+  -webkit-filter: drop-shadow(0 24px 80px rgba(0, 0, 0, 0.1));
+  filter: drop-shadow(0 24px 80px rgba(0, 0, 0, 0.1));
+  max-width: 960px;
+  width: 100%;
+  z-index: 0;
+}
+.LandingPageProductAnimation__cardBorderRadius {
+  border-radius: 8px;
+}
+.LandingPageProductAnimation__dragHandle {
+  bottom: -12px;
+  left: 80%;
+  position: absolute;
+  width: 24px;
+  z-index: 4;
+}
+@media (max-width: 991.98px) {
+  .LandingPageProductAnimation__dragHandle {
+    bottom: -6px;
+    width: 12px;
+  }
+}
+.LandingPageProductAnimation__cardContainer {
+  left: 6%;
+  position: absolute;
+  top: calc(10% - 16px);
+  width: 52%;
+  z-index: 1;
+}
+@media (max-width: 991.98px) {
+  .LandingPageProductAnimation__cardContainer {
+    top: calc(10% - 8px);
+  }
+}
+.LandingPageProductAnimation__card0,
+.LandingPageProductAnimation__card1,
+.LandingPageProductAnimation__card2,
+.LandingPageProductAnimation__card3 {
+  -webkit-filter: drop-shadow(0 24px 48px rgba(0, 0, 0, 0.1));
+  filter: drop-shadow(0 24px 48px rgba(0, 0, 0, 0.1));
+  width: 100%;
+}
+.LandingPageProductAnimation__card1 {
+  animation: cardAnimation1 5s linear 2s infinite;
+}
+.LandingPageProductAnimation__card2 {
+  animation: cardAnimation2 5s linear 2s infinite;
+}
+.LandingPageProductAnimation__firstCard {
+  animation: cardAnimation0 5s linear 2s infinite;
+  z-index: 3;
+}
+@keyframes cardAnimation0 {
+  0% {
+    transform: none;
+  }
+  10% {
+    transform: translateY(100%);
+  }
+  15% {
+    transform: translateY(100%);
+  }
+  25% {
+    transform: translateY(200%);
+  }
+  50% {
+    transform: translateY(200%);
+  }
+  60% {
+    transform: translateY(100%);
+  }
+  65% {
+    transform: translateY(100%);
+  }
+  75% {
+    transform: none;
+  }
+}
+@keyframes cardAnimation1 {
+  0% {
+    transform: none;
+  }
+  10% {
+    transform: translateY(-100%);
+  }
+  65% {
+    transform: translateY(-100%);
+  }
+  75% {
+    transform: none;
+  }
+}
+@keyframes cardAnimation2 {
+  15% {
+    transform: none;
+  }
+  25% {
+    transform: translateY(-100%);
+  }
+  50% {
+    transform: translateY(-100%);
+  }
+  60% {
+    transform: none;
+  }
+}
+.LandingPageReviews__carousel .slider-list {
+  align-items: stretch !important;
+  display: flex !important;
+}
+.LandingPageReviews__carousel .slider-slide {
+  align-items: stretch;
+  display: flex !important;
+}
+.LandingPageReviews__large__carousel .slider-list,
+.LandingPageReviews__large__carousel .slider-slide {
+  min-height: 400px;
+}
+.LandingPageReviews__small__carousel .slider-list,
+.LandingPageReviews__small__carousel .slider-slide {
+  min-height: 200px;
+}
+.LandingPageCarouselButton {
+  justify-content: center;
+}
+.LandingPageCarouselButton__left {
+  margin-left: -8px;
+}
+.LandingPageCarouselButton__rightInteger {
+  margin-right: -8px;
+}
+.LandingPageCarouselButton__rightNonInteger {
+  margin-right: -16px;
+}
+.LandingPageReview__gray {
+  background-color: #f3f4f5;
+}
+.LandingPageReview__border {
+  background-color: initial;
+  border: 1px solid #dee2e6;
+}
+.LandingPageReview__large {
+  border-radius: 40px;
+  height: 100%;
+  min-height: 400px;
+  padding: 36px;
+}
+.LandingPageReview__largeQuoteText {
+  font-size: 18px;
+  margin-top: 1.5rem;
+}
+@media (min-width: 576px) {
+  .LandingPageReview__largeQuoteText {
+    font-size: 24px;
+  }
+}
+.LandingPageReview__largeUserText {
+  font-size: 14px;
+}
+@media (min-width: 576px) {
+  .LandingPageReview__largeUserText {
+    font-size: 18px;
+  }
+}
+.LandingPageReview__small {
+  border-radius: 24px;
+  height: 100%;
+  min-height: 200px;
+  padding: 24px;
+}
+.LandingPageReview__smallQuoteText {
+  font-size: 16px;
+  margin-top: 0.5rem;
+}
+.LandingPageReview__smallUserText {
+  font-size: 16px;
+}
+.GetAppPromoContainer__bgColor {
+  background-color: #fbaca0;
+}
+.GetAppPromoContainer__title {
+  font-size: 28px;
+  line-height: 1.2;
+}
+@media (min-width: 576px) {
+  .GetAppPromoContainer__title {
+    font-size: 32px;
+  }
+}
+.CategoryEmojiOtherEatsCircleButton__dropdown {
+  border-radius: 8px;
+  min-width: 50vh;
+}
+.CategoryEmojiOverflowDropdown__buttons {
+  max-height: 400px;
+  max-width: 450px;
+  min-width: 275px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  width: 75vw;
+}
+.CategoryEmojiOverflowDropdown__buttons:after {
+  content: "";
+  flex: auto;
+}
+.IconInfoCard__container {
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  min-width: 200px;
+}
+.StatIcon {
+  width: 24px;
+}
+.PlacesListsInfo__button {
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  color: #495057;
+  font-size: 14px;
+  font-weight: 700;
+}
+.CreateTripHeaderOverlay__header {
+  bottom: 0;
+  color: #f3f4f5;
+  padding: 20px 32px;
+}
+@media (max-width: 575.98px) {
+  .CreateTripHeaderOverlay__header {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+.CreateTripHeaderOverlay__box {
+  bottom: 48px;
+  min-width: 480px;
+  position: absolute;
+}
+.CreateTripHeaderOverlay__box .InputContainer {
+  opacity: 0.9;
+}
+@media (max-width: 1199.98px) {
+  .CreateTripHeaderOverlay__box {
+    min-width: 400px;
+  }
+}
+@media (max-width: 575.98px) {
+  .CreateTripHeaderOverlay__box {
+    min-width: 304px;
+    padding: 0 16px;
+    width: 100%;
+  }
+}
+@media (max-width: 320px) {
+  .CreateTripHeaderOverlay__box {
+    bottom: 24px;
+  }
+}
+.CreateTripHeaderOverlay__scrim {
+  background: linear-gradient(
+    180deg,
+    transparent 0,
+    rgba(0, 0, 0, 0.1) 30%,
+    rgba(0, 0, 0, 0.2) 50%,
+    rgba(0, 0, 0, 0.5) 70%,
+    rgba(0, 0, 0, 0.8)
+  );
+}
+@media (max-width: 575.98px) {
+  .CreateTripHeaderOverlay__scrim {
+    background: linear-gradient(
+      180deg,
+      transparent 0,
+      rgba(0, 0, 0, 0.4) 30%,
+      rgba(0, 0, 0, 0.7) 60%,
+      rgba(0, 0, 0, 0.8)
+    );
+  }
+}
+.CreateTripHeaderOverlay__pinterest {
+  right: 16px;
+  top: 16px;
+}
+.Breadcrumbs {
+  font-size: 14px;
+}
+.SEOPageFooter__spacing80 {
+  margin-bottom: 80px;
+}
+.ImageWithTextOverlayCard__inner {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 0 #343a40;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.3s;
+}
+@media (prefers-reduced-motion: reduce) {
+  .ImageWithTextOverlayCard__inner {
+    transition: none;
+  }
+}
+.ImageWithTextOverlayCard__scrim {
+  background: linear-gradient(
+    180deg,
+    transparent 0,
+    rgba(0, 0, 0, 0.1) 40%,
+    rgba(0, 0, 0, 0.5) 70%,
+    rgba(0, 0, 0, 0.8)
+  );
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.ImageWithTextOverlayCard__imageContainer {
+  background-color: initial;
+  border-radius: 8px;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.ImageWithTextOverlayCard__image {
+  transition: transform 0.3s;
+}
+.ImageWithTextOverlayCard__imageContainer:focus
+  .ImageWithTextOverlayCard__image,
+.ImageWithTextOverlayCard__imageContainer:hover
+  .ImageWithTextOverlayCard__image {
+  transform: scale(1.05);
+}
+.ImageWithTextOverlayCard__title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.PlaceMarkerDots__container {
+  background-color: rgba(33, 37, 41, 0.8);
+  gap: 3px;
+}
+.HotelBookingSection__imagePlaceholder {
+  width: 264px;
+}
+.HotelBookingSection__image {
+  bottom: 0;
+  height: auto;
+  right: 0;
+  width: 264px;
+}
+.PageBottomPromoInner {
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  z-index: 61;
+}
+.PageBottomPromoInner__container {
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.2);
+}
+.PageBottomPromoInner__logo {
+  width: 60px;
+}
+@media (min-width: 992px) {
+  .PageBottomPromoInner__logo {
+    width: 90px;
+  }
+}
+.PageBottomPromoInner__closeButton {
+  right: 0;
+  top: 0;
+  z-index: 61;
+}
+.AppBadges__stretch {
+  max-width: 400px;
+}
